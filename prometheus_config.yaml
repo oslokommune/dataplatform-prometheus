@@ -26,4 +26,4 @@ scrape_configs:
     # scheme defaults to 'http'.
 
     static_configs:
-    - targets: ['LOLTESTHJAHAHAHt:9090']
+    - targets: ['probe.data-private-dev.oslo.systems:8000']
