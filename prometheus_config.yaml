@@ -26,7 +26,7 @@ scrape_configs:
 
     # metrics_path defaults to '/metrics'
     # scheme defaults to 'http'.
-    - metrics_path: '/'
+    metrics_path: '/'
 
     static_configs:
     - targets: ['probe.data-private-dev.oslo.systems']
