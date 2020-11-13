@@ -21,7 +21,7 @@ scrape_configs:
 
     static_configs:
     - targets: ['localhost:9090']
-    
+
   - job_name: 'probe'
 
     # metrics_path defaults to '/metrics'
@@ -29,4 +29,4 @@ scrape_configs:
     metrics_path: '/'
 
     static_configs:
-    - targets: ['probe.data-private-dev.oslo.systems']
+    - targets: ${TARGETS}
